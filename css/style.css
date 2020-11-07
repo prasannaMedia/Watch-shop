@@ -1,0 +1,35 @@
+body {
+  overflow-x: hidden;
+  background-color: #282a38;
+}
+ul li {
+  list-style-type: none;
+}
+.intro::before {
+  content: "\2022";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.btn-circle.btn-sm {
+  width: 20px;
+  height: 20px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  font-size: 3px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.btn-round {
+  border-radius: 15px;
+  border: 1px solid red;
+}
+.btn-round1 {
+  border-radius: 15px;
+}
+.btn-round3 {
+  border-radius: 15px;
+  border: 1px solid white;
+}
